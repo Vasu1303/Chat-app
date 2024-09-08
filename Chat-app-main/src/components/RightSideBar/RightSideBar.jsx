@@ -1,5 +1,5 @@
 import React, { useContext, useEffect,useState } from 'react'
-import './RightSidebar.css'
+import './RightSidebar.module.css'
 import assets from '../../assets/assets'
 import { logout } from '../../config/firebase'
 import { AppContext } from '../../context/AppContext'
