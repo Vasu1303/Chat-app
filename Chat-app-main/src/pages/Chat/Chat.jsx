@@ -1,9 +1,9 @@
 import React, { useContext, useEffect, useState } from 'react'
 import './Chat.css'
 import LeftSidebar from '../../components/LeftsideBar/LeftSideBar.jsx'
-import ChatBox from '../../components/ChatBox/ChatBox'
+import ChatBox from '../../components/ChatBox/ChatBox.jsx'
 import RightSidebar from '../../components/RightSideBar/RightSideBar.jsx'
-import { AppContext } from '../../context/AppContext'
+import { AppContext } from '../../context/AppContext.jsx'
 
 const Chat = () => {
 
